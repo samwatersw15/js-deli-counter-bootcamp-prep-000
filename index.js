@@ -33,4 +33,3 @@ function currentLine(line) {
 // trying a for loop
 // tried using map to concat line item position and line item
 // tried pushing each position/name into one array and concatenating that
-//had to add spaces into array items 
