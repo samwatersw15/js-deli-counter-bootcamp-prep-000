@@ -1,9 +1,12 @@
+var counter = 0
 function takeANumber(line,name) {
   line.push(name)
+  counter++
   let position = line.indexOf(name) + 1
-  return `Welcome, ${name}. You are number ${position} in line.`
+  return `Welcome, ${name}. You are customer number ${counter}.`
   
 } 
+
 // indexof - didn't have capital O
 function nowServing(line) {
   if (line.length > 0) {
